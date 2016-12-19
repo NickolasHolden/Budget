@@ -1,0 +1,20 @@
+<div id="stuff">
+	<b>Login</b>
+	<br /><br />
+	Enter your username and password
+	<br /><br />
+	<form action="login/verifyLogin.php?<?php echo SID; ?>" method="post">
+		<label for="username">Username: &nbsp;</label>
+		<input type="text" id="username" name="username" />
+		<br /><br />
+		<label for="password">Password: &nbsp;&nbsp;</label>
+		<input type="password" id="password" name="password" />
+		<br /><br />
+		<input type="submit" id="login" value="Login" style="margin-left:60px;"/>&nbsp;
+		<input type="reset" id="clear" value="Clear" />
+	</form>
+	<br /><br />
+	<span style="margin-left:50px;">New user? <a href="index.php?page=register.html">Register here</a></span>
+	<br /><br />
+	<br /><br />
+</div>
